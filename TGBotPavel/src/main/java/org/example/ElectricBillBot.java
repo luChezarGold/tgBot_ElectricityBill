@@ -25,7 +25,7 @@ public class ElectricBillBot extends TelegramLongPollingBot {
 ////
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/tgbot";
     private static final String DB_USER = "postgres";
-    private static final String DB_PASSWORD = "kotic";
+    private static final String DB_PASSWORD = "///";
     @Override
     public String getBotUsername() {
         return "electric_bill_bot";
@@ -33,7 +33,7 @@ public class ElectricBillBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "8135770117:AAFdLotN0YCTb0LUU76EKLlCJO795_YkzTA";
+        return "/.../";
     }
 ////
 
